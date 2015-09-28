@@ -10,7 +10,7 @@ RUN add-apt-repository -y ppa:mozillateam/firefox-next
 RUN apt-get update -y
 RUN apt-get install -y -q \
   firefox \
-  openjdk-7-jre-headless \
+  openjdk-8-jre-headless \
   xvfb \
   xfonts-100dpi \
   xfonts-75dpi \
